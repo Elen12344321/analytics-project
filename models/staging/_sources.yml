@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_layer
+    database: analytics-project-510707
+    schema: raw_layer
+    tables:
+      - name: raw_orders
+      - name: raw_products
