@@ -14,7 +14,6 @@ select
     o.order_date,
     o.quantity,
     o.total_amount,
-    -- розрахунок додаткової бізнес-метрики
     round(o.total_amount / nullif(o.quantity, 0), 2) as calculated_unit_price
 from orders o
 left join products p on o.product_id = p.product_id
