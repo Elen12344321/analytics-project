@@ -8,8 +8,8 @@ import requests
 # ----------------------------------------------------------------------
 # 1. SERVICE ACCOUNT AUTHENTICATION
 # ----------------------------------------------------------------------
-PROJECT_ID = "analytics-project-510707"  # Your GCP Project ID
-KEY_PATH = "analytics-project-510707-ad56618d5880.json"  # Path to your Service Account JSON key
+PROJECT_ID = os.getenv("GCP_PROJECT_ID", "your-gcp-project-id")
+KEY_PATH = "key.json"
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = KEY_PATH
 
