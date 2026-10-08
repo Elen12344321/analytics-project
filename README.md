@@ -1,10 +1,9 @@
-Welcome to your new dbt project!
 
-### Using the starter project
+## Data Warehouse Star Schema:
+![Data Warehouse Star Schema](assets/er_diagram.png)
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Tableau Dashboard:
+![Tableau Dashboard](assets/dashboard.png)
 
 To execute scripts/ingest_data.py, save your GCP Service Account credentials as key.json in the root directory and configure the environment variables.
 ### Environment Configuration
