@@ -10,7 +10,7 @@ select
     o.order_id,
     o.customer_id,
     o.product_id,
-    p.category as product_category,
+    coalesce(p.category, 'Uncategorized') as product_category,
     o.order_date,
     o.quantity,
     o.total_amount,
