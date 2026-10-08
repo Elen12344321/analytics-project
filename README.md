@@ -14,6 +14,7 @@ Create a `.env` file in the root directory (or set environment variables):
 ```env
 GCP_PROJECT_ID=your-gcp-project-id
 GOOGLE_APPLICATION_CREDENTIALS=key.json
+```
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
