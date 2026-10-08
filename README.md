@@ -6,6 +6,7 @@ Try running the following commands:
 - dbt run
 - dbt test
 
+To execute scripts/ingest_data.py, save your GCP Service Account credentials as key.json in the root directory and configure the environment variables.
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
